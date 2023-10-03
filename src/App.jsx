@@ -1,6 +1,7 @@
 
 import './App.css'
 import Haders from './Haders'
+import Blogs from './components/Blogs/Blogs'
 
 function App() {
  
@@ -9,6 +10,7 @@ function App() {
     <>
      
       <Haders></Haders>
+      <Blogs></Blogs>
        
        
     </>
