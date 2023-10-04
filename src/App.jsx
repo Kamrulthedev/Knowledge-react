@@ -2,6 +2,7 @@
 import './App.css'
 import Haders from './Haders'
 import Blogs from './components/Blogs/Blogs'
+import Bookmarsks from './components/Bookmarks/Bookmarsks'
 
 function App() {
  
@@ -10,7 +11,10 @@ function App() {
     <>
      
       <Haders></Haders>
-      <Blogs></Blogs>
+     <main className='md:flex mt-4'>
+     <Blogs></Blogs>
+     <Bookmarsks></Bookmarsks>
+     </main>
        
        
     </>
