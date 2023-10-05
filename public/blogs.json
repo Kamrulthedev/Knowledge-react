@@ -1,68 +1,54 @@
 [
-    {
-        "article": {
+    
+        {
            "id": 1,
-           "cover": "https://i.ibb.co/CbgFr7Y/hamid-tajik-Xqr-KF0-M-U0c-unsplash.jpg",
+           "cover": "https://i.ibb.co/M8w5k9w/portrait-woman-customer-service-worker.jpghttps://i.ibb.co/KDYhcwk/2.png",
            "title": "Exploring the Mysteries of Quantum Physics",
            "author": "John A. Smith",
-           "author_img": "https://i.ibb.co/M8w5k9w/portrait-woman-customer-service-worker.jpg",
+           "author_img": "https://i.ibb.co/17Ss5Qv/boy1.png",
            "posted_date": "October 5, 2023",
            "reading_time": "10 minutes",
            "hashtags": ["#QuantumPhysics", "#Science", "#Mysteries"]
-        }
-     },
-     {
-        "article": {
+           },
+        {
            "id": 2,
-           "cover": "https://i.ibb.co/5Bvr3qr/flat-lay-workstation-with-copy-space-laptop.jpg",
+           "cover": "https://i.ibb.co/8xzPJfM/1.jpg",
            "title": "The Art of Cooking: From Home Chef to Culinary Expert",
            "author": "Sarah B. Johnson",
-           "author_img": "https://i.ibb.co/M8w5k9w/portrait-woman-customer-service-worker.jpg",
+           "author_img": "https://i.ibb.co/Hqy1v7s/boy2.jpg",
            "posted_date": "September 20, 2023",
            "reading_time": "15 minutes",
            "hashtags": ["#Cooking", "#Culinary", "#Food"]
-        }
-     },
-
-     {
-   "article": {
+        },
+   {
       "id": 3,
-      "cover": "https://i.ibb.co/CbgFr7Y/hamid-tajik-Xqr-KF0-M-U0c-unsplash.jpg",
+      "cover": "https://i.ibb.co/KDYhcwk/2.png",
       "title": "Mastering Productivity: Tips for a More Efficient Workday",
       "author": "David M. Williams",
-      "author_img": "https://i.ibb.co/M8w5k9w/portrait-woman-customer-service-worker.jpg",
+      "author_img": "https://i.ibb.co/kHQd5jj/girl1.jpg",
       "posted_date": "August 15, 2023",
       "reading_time": "8 minutes",
       "hashtags": ["#Productivity", "#Efficiency", "#WorkTips"]
-   }
-}
-,
-{
-    "article": {
+   },
+    {
        "id": 4,
-       "cover": "https://i.ibb.co/5Bvr3qr/flat-lay-workstation-with-copy-space-laptop.jpg",
+       "cover": "https://i.ibb.co/VxCYRpS/3.png",
        "title": "Travel Adventures: Exploring Hidden Gems Around the World",
        "author": "Emily R. Anderson",
-       "author_img": "https://i.ibb.co/M8w5k9w/portrait-woman-customer-service-worker.jpg",
+       "author_img": "https://i.ibb.co/5FYYLPZ/girl2.jpg",
        "posted_date": "July 3, 2023",
        "reading_time": "12 minutes",
        "hashtags": ["#Travel", "#Adventure", "#Wanderlust"]
-    }
- }
-,
-{
-    "article": {
+    },
+    {
        "id": 5,
-       "cover": "https://i.ibb.co/CbgFr7Y/hamid-tajik-Xqr-KF0-M-U0c-unsplash.jpg",
+       "cover": "https://i.ibb.co/Fgs7fxH/4.jpg",
        "title": "Unlocking the Secrets of Ancient Civilizations",
        "author": "Michael K. Roberts",
-       "author_img": "https://i.ibb.co/M8w5k9w/portrait-woman-customer-service-worker.jpg",
+       "author_img": "https://i.ibb.co/pWS5M20/profile.png",
        "posted_date": "June 10, 2023",
        "reading_time": "14 minutes",
        "hashtags": ["#History", "#AncientCivilizations", "#Archaeology"]
-    }
- }
- 
-     
+    }  
 ]
  

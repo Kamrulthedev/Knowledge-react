@@ -11,7 +11,7 @@ function App() {
     <>
      
       <Haders></Haders>
-     <main className='md:flex mt-4'>
+     <main className='md:flex max-w-7xl mx-auto mt-4'>
      <Blogs></Blogs>
      <Bookmarsks></Bookmarsks>
      </main>
