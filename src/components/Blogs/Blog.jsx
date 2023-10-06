@@ -10,7 +10,7 @@ const Blog = ({blog}) => {
                 <div className='flex'>
                     <img className='w-14 ml-24' src={author_img} alt="" />
                     <div className='ml-6'>
-                        <h3 className='text-2xl '>{author}</h3>
+                        <h3 className='text-xl font-bold'>{author}</h3>
                         <p >{posted_date}</p>
                     </div>
                 </div>
@@ -18,12 +18,12 @@ const Blog = ({blog}) => {
                     <span className='ml-24'>{reading_time}min read</span>
                 </div>
             </div>
-            <h2 className="text-3xl ml-24 m-4 font-bold">{title}</h2>
+            <h2 className="text-2xl ml-24 m-4 font-bold">{title}</h2>
             <div>
-                <p className='ml-24 mb-4'>{
+                <p className='ml-24 mb-4 font-bold'>{
                 hashtags.map((hash, idx) => <span key={idx}> <a href=''>#{hash}</a></span>)
                 }</p>
-                <button className='ml-24 mb-4 text-red-900 bg-green-100 rounded-lg border-b-4'>Mark as read</button>
+                <button className='ml-24 mb-4 text-red-900 bg-green-100 rounded-lg border-b-4 font-bold'>Mark as read</button>
             </div>
         </div>
     );
