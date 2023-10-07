@@ -10,7 +10,8 @@ function App() {
   const [bookmarks , setBookmarks] = useState([]);
 
   const hanleAddtoBookmarek = blog =>{
-    console.log('bookmark adding coon')
+   const newBookmarks = [...bookmarks , blog];
+   setBookmarks(newBookmarks)
   }
 
   return (
@@ -19,7 +20,7 @@ function App() {
       <Haders></Haders>
      <main className='md:flex max-w-7xl mx-auto mt-4'>
      <Blogs hanleAddtoBookmarek ={hanleAddtoBookmarek}></Blogs>
-     <Bookmarsks></Bookmarsks>
+     <Bookmarsks bookmarks={bookmarks}></Bookmarsks>
      </main>
        
        
