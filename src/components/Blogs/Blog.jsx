@@ -16,7 +16,7 @@ const Blog = ({ blog, hanleAddtoBookmarek }) => {
                     </div>
                 </div>
                 <div>
-                    <span className='ml-24 font-bold'>{reading_time}min read</span><button  onClick={hanleAddtoBookmarek} className='ml-2 text-red-700 text-xl'><FaBookmark></FaBookmark></button>
+                    <span className='ml-24 font-bold'>{reading_time}min read</span><button  onClick={() => hanleAddtoBookmarek (blog)} className='ml-2 text-red-700 text-2xl'><FaBookmark></FaBookmark></button>
                 </div>
             </div>
             <h2 className="text-2xl ml-24 m-4 font-bold">{title}</h2>
@@ -31,6 +31,7 @@ const Blog = ({ blog, hanleAddtoBookmarek }) => {
     );
 };
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    hanleAddtoBookmarek: PropTypes.func
 }
 export default Blog;
